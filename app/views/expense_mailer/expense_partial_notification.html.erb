@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+  <h1>Expense Partially Approved</h1>
+  <p>Dear <%= @employee.name %>,</p>
+  <p>Your expense has been Partially Approved:</p>
+  <ul>
+    <li>Description: <%= @expense.description %></li>
+    <li>Amount: <%= @expense.reimbursement_amount %></li>
+    <!-- Add more details here as needed -->
+  </ul>
+  <p>Please contact your manager for further details.</p>
+</body>
+</html>
